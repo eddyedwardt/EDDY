@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Sun</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    
+    <body>
+        <section class="place">
+    <div class="sun"></div>
+        </section>
+    <script>
+      const sun = document.querySelector('.sun');
+      const body = document.querySelector('body');
+        sun.onclick = function(){
+            body.classList.toggle('dark')
+        }
+        </script>
+    
+    </body>
+
+
+</html>
